@@ -7944,6 +7944,13 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+chokidar@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-4.0.1.tgz#4a6dff66798fb0f72a94f616abbd7e1a19f31d41"
+  integrity sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==
+  dependencies:
+    readdirp "^4.0.1"
+
 chownr@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
@@ -12651,12 +12658,12 @@ next@14.2.3:
     "@next/swc-win32-ia32-msvc" "14.2.3"
     "@next/swc-win32-x64-msvc" "14.2.3"
 
-nextjs-routes@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/nextjs-routes/-/nextjs-routes-1.0.8.tgz#7604fe12dd0132c5a4c61e8d4a6c00c19cf615fb"
-  integrity sha512-EWBrzT0VS+SGcrhEbCUGnDlEAS6tjJSiecbSA7x75pBbcW9IYkYw7JxDMNqFhiSrvtYAL8yIWFwbQ8x0Jmz7wg==
+nextjs-routes@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/nextjs-routes/-/nextjs-routes-2.2.2.tgz#b8ea73322125fdd64cad6d29f88f4d6ecb8c7731"
+  integrity sha512-b80592QIlELoqZTMWgzTy/stlE/HA3u6WFKQnunYYHhWoWm3zkDHtXR6dp3+AZLa8IRGyDAtGgYLHiho6aM7Jw==
   dependencies:
-    chokidar "^3.5.3"
+    chokidar "^4.0.0"
 
 node-abi@^3.3.0:
   version "3.45.0"
@@ -14134,6 +14141,11 @@ readable-stream@^4.0.0:
     buffer "^6.0.3"
     events "^3.3.0"
     process "^0.11.10"
+
+readdirp@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-4.0.1.tgz#b2fe35f8dca63183cd3b86883ecc8f720ea96ae6"
+  integrity sha512-GkMg9uOTpIWWKbSsgwb5fA4EavTR+SG/PMPoAY8hkhHfEEY0/vqljY+XHqtDf2cr2IJtoNRDbrrEpZUiZCkYRw==
 
 readdirp@~3.6.0:
   version "3.6.0"
